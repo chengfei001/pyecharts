@@ -1,7 +1,8 @@
-import urllib,urllib3
 import  requests
 
 Url = 'http://www.chengfei.com/get'
+URL = 'http://api.github.com'
 
-params = urllib.parse.urlencode({'name':'coffee','param2':'daye'})
-print('?'.join((Url,'%s')) % params)
+
+if __name__ == '__main__':
+    pass
