@@ -2,9 +2,12 @@ from pandas import Series, DataFrame
 import pandas as pd
 import logging
 
+
 logging.basicConfig(level = logging.INFO)
 
+
 logging.info(dir(Series))
+
 s_from_array = Series([100, 200])
 logging.info(s_from_array)
 
