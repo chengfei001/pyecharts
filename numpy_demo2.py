@@ -63,7 +63,7 @@ logging.info(np.random.random((3, 2)))
 
 logging.info(np.random.normal())
 logging.info(np.random.normal(10, 100))
-logging.info(help(np.random))
+# logging.info(help(np.random))
 
 
 x = np.arange(30)
@@ -113,4 +113,14 @@ y1, y2 = np.hsplit(x,[-1])
 
 logging.info(y1)
 logging.info(y2)
+
+# 给定一个相量，向量中的每一个值乘以2
+n = 10
+L = [i for i in range(10)]
+logging.info(2*L)
+
+
+A = np.array([[1, 3, 3], [5, 7, 8]])
+B = np.array([[10, 20], [30, 40],[3, 2]])
+logging.info(A.dot(B))
 
